@@ -45,23 +45,27 @@ body {
   color: #3ba9c2;
 }
 .desc{
-  width: 60%;
-  height: 60%;
+  width: 100%;
+  /* height: 60%; */
   padding: 1rem;
   padding-bottom: 0;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
-@media screen and (min-width: 400px) {
+@media screen and (max-width: 420px) {
+  #heading{
+    font-size: 2rem;
+  }
   .desc{
     width: 100%;
     height: 60%;
     padding: 1rem;
     padding-bottom: 0;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.6rem;
   }
 }
+
 
 #chat_container {
   /* border: 1px solid #10a37f; */
